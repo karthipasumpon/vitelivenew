@@ -13,7 +13,7 @@ import List from "./components/List";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route path="/vitelivenew" element={<RootLayout />}>
       <Route path="create" element={<Create />} />
       <Route path="read" element={<Read />} />
       <Route path="update/:id"  element={<Update />} />
